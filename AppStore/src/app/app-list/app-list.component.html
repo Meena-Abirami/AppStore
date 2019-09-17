@@ -1,0 +1,10 @@
+<div class="app-list-wrapper">
+    <div class="app-card" *ngFor="let app of appList" >
+        <div class="app-icon">
+            <img src="{{app.iconURL}}" alt="app-icon" />
+        </div>
+        <div class="app-name">{{app.name}}</div>
+        <div class="pub-name">{{app.pubName}}</div>
+        <div class="rating">{{app.rating}}</div>
+    </div>
+</div>
