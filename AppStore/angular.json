@@ -25,7 +25,10 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/manifest.json",
+              "src/assets",
+              "src/service-worker.js",
+              "src/offline.html"
             ],
             "styles": [
               "src/styles.scss"
