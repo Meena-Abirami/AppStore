@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    header, footer {
+        padding: 1em;
+        background-color: blueviolet;
+    }
+    content {
+        min-width: 100%;
+    }
+}
