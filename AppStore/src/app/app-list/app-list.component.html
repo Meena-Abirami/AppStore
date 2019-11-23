@@ -1,5 +1,5 @@
 <div class="app-list-wrapper">
-    <div class="app-card" *ngFor="let app of appList" >
+    <div class="app-card" *ngFor="let app of appList" (click)="navigateTo(app.url)">
         <div class="app-icon">
             <img src="{{app.iconURL}}" alt="app-icon" />
         </div>

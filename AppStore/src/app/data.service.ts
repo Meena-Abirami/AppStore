@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
 
-  appListAPIUrl = "assets/app-list.json"
+  appListAPIUrl = "assets/app-list-new.json"
 
   constructor(private http: HttpClient) { }
 

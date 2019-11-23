@@ -1,17 +1,26 @@
 .app-list-wrapper {
-    background: #eeeeee;
-    display: flex;
-    flex-wrap: wrap;
-    .app-card {
-        margin: 0.5em;
-        padding:0.5em;
-        flex: 0 32%;
-        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12),0 1px 3px 0 rgba(0,0,0,0.2);
-        border-radius: 2px;
-        .app-icon {
-            background-color: #fff;
-
-        }
-
+  background: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .app-card {
+    margin: 0.5em;
+    padding: 0.5em;
+    flex: 0 12%;
+    min-width: 100px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    background-color: #fff;
+    .app-icon {
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
     }
+    .app-name {
+      text-align: center;
+    }
+  }
 }

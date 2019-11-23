@@ -23,13 +23,18 @@ export class AppListComponent implements OnInit {
   mapAppList(list) {
     this.appList = list.map(app => {
       return {
-        name: app.appName,
+        name: app.app_name,
         pubName: app.publisherName,
-        iconURL: app.iconURL,
-        rating: app.rating
+        url: app.playstore_url,
+        iconURL: app.app_icon,
+        description: app.app_description
       }
     });
 
+  }
+
+  navigateTo(url) {
+    window.open(url, '_blank')
   }
 
 }
@@ -38,5 +43,6 @@ interface App {
   name: string,
   pubName: string,
   iconURL: string,
-  rating: number
+  description: string,
+  url: string
 }
