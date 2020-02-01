@@ -64,7 +64,7 @@ export class AppComponent {
    */
   logAppInstalled(evt) {
     // CODELAB: Add code to log the event
-    console.log('Weather App was installed.', evt);
+    console.log('AppStore App was installed.', evt);
 
   }
 }
